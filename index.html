@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora: Etanol x Gasolina</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="img/bomba de combustivel.png" type="image/x-icon"><!--logo do favicon da pagina-->
+
+    <script src="js/script.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        
+        <div class="texts">
+
+            <h2>Calculadora Etanol x Gasolina</h2>
+            <p>
+                <span>
+                    O etanol vale a pena quando custar até 70% do valor da gasolina.
+                </span>
+            </p>
+
+        </div>
+
+        <div id="container-input">
+            <label>Etanol (preço por litro)</label>
+            <input id="etanol" 
+            type="text"
+            name="etanol"
+
+            placeholder="R$0,00"/>
+
+            <label >Gasolina (preço por litro)</label>
+            <input id="gasolina"
+            type="text"
+            name="gasolina"
+            placeholder="R$0,00"/>
+            
+            <div class="action-control">
+                <button id="calc-btn">Calcular</button>
+                <button id="clear-btn">Limpar</button>
+            </div>
+        </div>
+
+        <div id="result-container">
+            <p id="calc-res"> <span class="chama"></span></p>
+        </div>
+
+
+        <div class="texts2">
+            <h3>Entenda como o cálculo é feito</h3>
+            <span>
+                Dividimos o valor do litro do álcool pelo da gasolina.
+                
+                Quando o resultado é menor que 0,7, a recomendação é abastecer com álcool. Se maior, a recomendação é escolher a gasolina.
+                
+                Exemplo: se o álcool custa R$ 3,29 e a gasolina R$ 4,92, o resultado da divisão do primeiro pelo segundo é 0,67, menor que 0,7. 
+                Portanto, é mais vantajoso abastecer com álcool.
+            </span>
+        </div>
+        <footer>
+            <br>
+            <b>2022 © | Matheus de Souza Silva.</b>
+            </footer>
+    </div>
+</body>
+</html>
