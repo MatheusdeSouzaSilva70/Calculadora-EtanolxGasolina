@@ -21,7 +21,7 @@ Projeto Calculadora de Combustível Etanol x Gasolina, conforme os valores infor
 
 
 ## Links:
-- Projeto:https://calculadora-combustivel.netlify.app/
+- Projeto:https://matheusdesouzasilva70.github.io/Calculadora-EtanolxGasolina/
 - Portfolio:https://matheusdesouzasilva70.github.io/Portfolio/
 - LinkedIn:https://www.linkedin.com/in/matheus-de-souza-silva-288194229/
 
